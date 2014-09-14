@@ -326,6 +326,7 @@ int main(void)
 		{
 			
 			OCR1A = sine[i];
+			_delay_loop_2(8);
 		}
 	}
 }
